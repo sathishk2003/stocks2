@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>New Product - Admin</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h2>.cloths</h2>
+      <nav>
+        <ul>
+          <li>Dashboard</li>
+          <li>Upload Products</li>
+          <li>Orders</li>
+          <li>Delivery Tracking</li>
+          <li class="active">Stocks</li>
+          <li>Expense</li>
+          <li>Reviews & Ratings</li>
+          <li>Advertisement</li>
+        </ul>
+      </nav>
+      <div class="logout">Log Out</div>
+    </aside>
+
+    <main class="main">
+      <header class="header">
+        <input type="text" placeholder="Search.....">
+        <div class="user">
+          <span>Joseph</span>
+          <img src="" alt="User" />
+        </div>
+      </header>
+
+      <section class="form-section">
+        <h2>New Product</h2>
+        <form>
+          <div class="row">
+            <div>
+              <label>Product Code</label>
+              <input type="text" value="254">
+            </div>
+            <div>
+              <label>Product Category</label>
+              <input type="text" value="Mens">
+              <a href="#">Add New Category</a>
+            </div>
+          </div>
+
+          <div class="row">
+            <div>
+              <label>Sub Category</label>
+              <input type="text" value="Shirt">
+            </div>
+            <div>
+              <label>Product name</label>
+              <input type="text" value="Printed Formal Shirt">
+            </div>
+          </div>
+
+          <div class="row">
+            <div>
+              <label>Product Type</label>
+              <select>
+                <option>Western Wear</option>
+              </select>
+              <a href="#">Add New Product Type</a>
+            </div>
+            <div>
+              <label>Price</label>
+              <input type="text" value="Rs. 1,000">
+            </div>
+          </div>
+
+          <div class="row">
+            <div>
+              <label>GST</label>
+              <input type="text" value="10%">
+            </div>
+          </div>
+
+          <div class="color-size">
+            <p>Available Colours, Sizes & Quantity.</p>
+            <div class="row">
+              <div>
+                <label>Colour</label>
+                <input type="color" value="#5a0000">
+              </div>
+              <div>
+                <label>Size</label>
+                <input type="text" value="S">
+              </div>
+              <div>
+                <label>Quantity</label>
+                <input type="number" value="10">
+              </div>
+              <div class="upload-btn">
+                <label>Upload Image</label>
+                <input type="file">
+              </div>
+              <a href="https://sathishk2003.github.io/stocks3/">Add More</a>
+            </div>
+          </div>
+
+          <div class="actions">
+            <button class="discard" type="reset">Discard</button>
+            <button class="save" type="submit">Save</button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
